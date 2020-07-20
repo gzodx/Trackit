@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard"
+    app:startDestination="@id/homeDashboard">
+
+    <fragment
+        android:id="@+id/homeDashboard"
+        android:name="com.nike.trackit.ui.dashboard.HomeDashboard"
+        android:label="fragment_home_dashboard"
+        tools:layout="@layout/fragment_home_dashboard" >
+        <action
+            android:id="@+id/action_homeDashboard_to_settings_Dashboard"
+            app:destination="@id/settings_Dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/settings_Dashboard"
+        android:name="com.nike.trackit.ui.dashboard.Settings_Dashboard"
+        android:label="fragment_settings__dashboard"
+        tools:layout="@layout/fragment_settings__dashboard" >
+        <action
+            android:id="@+id/action_settings_Dashboard_to_trackDashBoard"
+            app:destination="@id/trackDashBoard" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackDashBoard"
+        android:name="com.nike.trackit.ui.dashboard.TrackDashBoard"
+        android:label="fragment_track_dash_board"
+        tools:layout="@layout/fragment_track_dash_board" />
+</navigation>

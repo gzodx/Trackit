@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1072342235598",
+    "firebase_url": "https://trackit-ec8d9.firebaseio.com",
+    "project_id": "trackit-ec8d9",
+    "storage_bucket": "trackit-ec8d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072342235598:android:001133a9821d0e7cbc139f",
+        "android_client_info": {
+          "package_name": "com.nike.trackit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072342235598-v0ne52c6locsji8ths3torbgdsq8d82d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwIVfah3YuxrjVfRS1vKv-qsDHy74Wpnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072342235598-v0ne52c6locsji8ths3torbgdsq8d82d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onbarding_nav"
+    app:startDestination="@id/welcome">
+    <fragment
+        android:id="@+id/welcome"
+        android:name="com.nike.trackit.ui.Welcome"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcome_to_activateAdmin"
+            app:destination="@id/activateAdmin" />
+    </fragment>
+    <fragment
+        android:id="@+id/activateAdmin"
+        android:name="com.nike.trackit.ui.onboarding.ActivateAdmin"
+        android:label="ActivateAdmin" >
+        <action
+            android:id="@+id/action_activateAdmin_to_attempts_limit"
+            app:destination="@id/attempts_limit" />
+        <action
+            android:id="@+id/action_activateAdmin_to_welcome"
+            app:destination="@id/welcome" />
+    </fragment>
+    <fragment
+        android:id="@+id/attempts_limit"
+        android:name="com.nike.trackit.ui.onboarding.Attemptslimit"
+        android:label="Attempts_limit" >
+        <action
+            android:id="@+id/action_attempts_limit_to_activateAdmin"
+            app:destination="@id/activateAdmin" />
+        <action
+            android:id="@+id/action_attempts_limit_to_permission"
+            app:destination="@id/permission" />
+        <action
+            android:id="@+id/action_attempts_limit_to_alertEmail"
+            app:destination="@id/alertEmail" />
+    </fragment>
+    <fragment
+        android:id="@+id/permission"
+        android:name="com.nike.trackit.ui.onboarding.Permission"
+        android:label="Permission" />
+    <fragment
+        android:id="@+id/alertEmail"
+        android:name="com.nike.trackit.AlertEmail"
+        android:label="AlertEmail" >
+        <action
+            android:id="@+id/action_alertEmail_to_permission"
+            app:destination="@id/permission" />
+    </fragment>
+</navigation>

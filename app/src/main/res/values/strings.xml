@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TrackIt</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trackit_needs_device_administrator_rights_to_look_out_for_incorrect_unlock_attempts">TrackIt needs device administrator rights to look out for incorrect unlock attempts.</string>
+    <string name="we_put_you_in_control_finally_we_can_catch_that_phone_swiper">we put you in control, finally we can catch that phone swiper 😎</string>
+    <string name="device_admin_explanation">TrackIt needs device administrator rights to look out for incorrect unlock attempts </string>
+
+    <string name="compliant">Your password is compliant!</string>
+    <string name="not_compliant">Your password is not compliant! Submit to my authority!</string>
+
+    <string name="agree">okay</string>
+    <string name="permission">Permission</string>
+    <string name="get_started">get Started</string>
+
+    <string-array name="Attempts">
+        <item>1 time</item>
+        <item>2 times</item>
+        <item>3 times</item>
+        <item>4 times</item>
+    </string-array>
+
+    <string-array name="Settings">
+        <item>Change Email address</item>
+        <item>Change Number of unlock times</item>
+    </string-array>
+
+    <string-array name="Helo">
+        <item>you must enter a minimum the amount of times set</item>
+        <item>Location must be on to send gps location</item>
+        <item>Location must be on to send gps location</item>
+        <item></item>
+    </string-array>
+</resources>
